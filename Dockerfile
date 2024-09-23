@@ -3,10 +3,9 @@
 FROM ubuntu:22.04
 
 ENV BYOND_MAJOR=515 \
-    BYOND_MINOR=1621
+    BYOND_MINOR=1637
     
 ARG DEBIAN_FRONTEND=noninteractive
-
 
 RUN dpkg --add-architecture i386 
 RUN apt-get update -y
